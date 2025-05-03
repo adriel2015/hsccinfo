@@ -7,7 +7,7 @@ var logger = require('morgan');
 // Including .env file
 require('dotenv').config();
 
-// Creating routers which are linked to files in routes folder
+// Creating routers which are linked to files in r outes folder
 // MUST ADD ROUTER CONNECTIONS AS WE ADD ROUTE FILES HERE
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
